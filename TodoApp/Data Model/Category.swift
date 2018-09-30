@@ -11,6 +11,7 @@ import RealmSwift
 
 class Category : Object {
     @objc dynamic var name : String = ""
+    @objc dynamic var color: String = "0xFFFFFF"
     let items = List<Item>() // List is a container used to store to-many relationship
 
     // let array: Array<Int> = [1, 2, 3]  => another way to initialize an array
